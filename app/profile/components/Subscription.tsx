@@ -6,15 +6,10 @@ import React from "react";
 
 export default function Subscription() {
 	const { data: user, isLoading } = useUser();
-	if (isLoading) {
-		return <></>;
-	}
-
+	if (isLoading) { return <></>; }
 	const handleBilling = async () => {
 		if (user?.subscription?.customer_id) {
-			const data = JSON.parse(
-				await manageBilling(user?.subscription?.customer_id)
-			);
+			const data = JSON.parse( await manageBilling(user?.subscription?.customer_id) );
 			window.location.href = data.url;
 		}
 	};
@@ -23,12 +18,12 @@ export default function Subscription() {
 			<h1 className=" text-3xl font-bold">Hi, {user?.display_name}</h1>
 			{user?.subscription?.end_at && (
 				<p>
-					Your Subscription will end on{" "}
+					your subscription will end on{" "}
 					{new Date(user?.subscription?.end_at).toDateString()}
 				</p>
 			)}
 			{user?.subscription?.customer_id && (
-				<Button onClick={handleBilling}>Cancel</Button>
+				<Button onClick={handleBilling}>cAncel</Button>
 			)}
 		</div>
 	);

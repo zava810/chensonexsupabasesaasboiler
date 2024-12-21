@@ -10,41 +10,28 @@ import { usePathname, useRouter } from "next/navigation";
 import { protectedPaths } from "@/lib/constant";
 
 import {
-	DropdownMenu,
-	DropdownMenuContent,
-	DropdownMenuItem,
-	DropdownMenuLabel,
-	DropdownMenuSeparator,
-	DropdownMenuTrigger,
+	DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel,
+	DropdownMenuSeparator, DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
 export default function Profile() {
 	const { isFetching, data } = useUser();
 	const queryClient = useQueryClient();
 	const router = useRouter();
-
 	const pathname = usePathname();
-
-	if (isFetching) {
-		return <></>;
-	}
-
+	if (isFetching) { return <></>; }
 	const handleLogout = async () => {
 		const supabase = supabaseBrowser();
 		queryClient.clear();
 		await supabase.auth.signOut();
 		router.refresh();
-		if (protectedPaths.includes(pathname)) {
-			router.replace("/auth?next=" + pathname);
-		}
+		if (protectedPaths.includes(pathname)) { router.replace("/auth?next=" + pathname); }
 	};
 
 	return (
 		<div>
 			{!data?.id ? (
-				<Link href="/auth" className=" animate-fade">
-					<Button variant="outline">signin</Button>
-				</Link>
+				<Link href="/auth" className=" animate-fade"> <Button variant="outline">signin</Button> </Link>
 			) : (
 				<DropdownMenu>
 					<DropdownMenuTrigger>
@@ -65,12 +52,12 @@ export default function Profile() {
 						</>
 					</DropdownMenuTrigger>
 					<DropdownMenuContent>
-						<DropdownMenuLabel>My Account</DropdownMenuLabel>
+						<DropdownMenuLabel>mera Account</DropdownMenuLabel>
 						<DropdownMenuSeparator />
 						<DropdownMenuItem onClick={handleLogout}>
 							logout
 						</DropdownMenuItem>
-						<DropdownMenuItem>Billing</DropdownMenuItem>
+						<DropdownMenuItem>billiNg</DropdownMenuItem>
 					</DropdownMenuContent>
 				</DropdownMenu>
 			)}
