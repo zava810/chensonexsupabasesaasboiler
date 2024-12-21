@@ -43,7 +43,7 @@ export default function Profile() {
 		<div>
 			{!data?.id ? (
 				<Link href="/auth" className=" animate-fade">
-					<Button variant="outline">SignIn</Button>
+					<Button variant="outline">signin</Button>
 				</Link>
 			) : (
 				<DropdownMenu>
@@ -68,7 +68,7 @@ export default function Profile() {
 						<DropdownMenuLabel>My Account</DropdownMenuLabel>
 						<DropdownMenuSeparator />
 						<DropdownMenuItem onClick={handleLogout}>
-							Logout
+							logout
 						</DropdownMenuItem>
 						<DropdownMenuItem>Billing</DropdownMenuItem>
 					</DropdownMenuContent>
