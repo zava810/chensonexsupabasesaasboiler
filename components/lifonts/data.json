@@ -1,0 +1,73 @@
+[
+    { "olabel": "iNg15:-31=a-z+ADHNT", "ovalue": "ing15", "sfonts": [
+      { "olabel": "iNg15:-31=26a-z+ADHNT", "ovalue": "ing15" },
+      { "olabel": "iNg25:-31=26a-z+ADHNT", "ovalue": "ing25" },
+      { "olabel": "binaryv_89YJQWPF", "ovalue": "binaryv15" }
+    ] },
+    { "olabel": "HinDi15", "ovalue": "hindi15", "sfonts": [
+        { "olabel": "HinDi15", "ovalue": "hindi15" },
+        { "olabel": "HinDi25", "ovalue": "hindi25" },
+        { "olabel": "iNg15:-31=26a-z+ADHNT", "ovalue": "ing15" },
+        { "olabel": "iNg25:-31=26a-z+ADHNT", "ovalue": "ing25" }
+    ] },
+    { "olabel": "bANglA15", "ovalue": "bangla15", "sfonts": [
+        { "olabel": "bANglA15", "ovalue": "bangla15" },
+        { "olabel": "bANglA25", "ovalue": "bangla25" },
+        { "olabel": "iNg15:-31=26a-z+ADHNT", "ovalue": "ing15" },
+        { "olabel": "iNg25:-31=26a-z+ADHNT", "ovalue": "ing25" }
+    ] },
+    { "olabel": "korean15", "ovalue": "korean15", "sfonts": [
+        { "olabel": "korean15", "ovalue": "korean15" },
+        { "olabel": "korean25", "ovalue": "korean25" },
+        { "olabel": "iNg15:-31=26a-z+ADHNT", "ovalue": "ing15" },
+        { "olabel": "iNg25:-31=26a-z+ADHNT", "ovalue": "ing25" }
+    ] },
+    { "olabel": "sinHalA15", "ovalue": "sinhala15", "sfonts": [
+        { "olabel": "sinHalA15", "ovalue": "sinhala15" },
+        { "olabel": "sinHalA25", "ovalue": "sinhala25" },
+        { "olabel": "iNg15:-31=26a-z+ADHNT", "ovalue": "ing15" },
+        { "olabel": "iNg25:-31=26a-z+ADHNT", "ovalue": "ing25" }
+    ] },
+    { "olabel": "Telugu15", "ovalue": "telugu15", "sfonts": [
+        { "olabel": "Telugu15", "ovalue": "telugu15" },
+        { "olabel": "Telugu25", "ovalue": "telugu25" },
+        { "olabel": "iNg15:-31=26a-z+ADHNT", "ovalue": "ing15" },
+        { "olabel": "iNg25:-31=26a-z+ADHNT", "ovalue": "ing25" }
+    ] },
+    { "olabel": "Tamil15", "ovalue": "tamil15", "sfonts": [
+        { "olabel": "Tamil15", "ovalue": "tamil15" },
+        { "olabel": "Tamil25", "ovalue": "tamil25" },
+        { "olabel": "iNg15:-31=26a-z+ADHNT", "ovalue": "ing15" },
+        { "olabel": "iNg25:-31=26a-z+ADHNT", "ovalue": "ing25" }
+    ] },
+    { "olabel": "malayAlam15", "ovalue": "malayalam15", "sfonts": [
+        { "olabel": "malayAlam15", "ovalue": "malayalam15" },
+        { "olabel": "malayAlam25", "ovalue": "malayalam25" },
+        { "olabel": "iNg15:-31=26a-z+ADHNT", "ovalue": "ing15" },
+        { "olabel": "iNg25:-31=26a-z+ADHNT", "ovalue": "ing25" }
+    ] },
+    { "olabel": "kannadA15", "ovalue": "kannada15", "sfonts": [
+        { "olabel": "kannadA15", "ovalue": "kannada15" },
+        { "olabel": "kannadA25", "ovalue": "kannada25" },
+        { "olabel": "iNg15:-31=26a-z+ADHNT", "ovalue": "ing15" },
+        { "olabel": "iNg25:-31=26a-z+ADHNT", "ovalue": "ing25" }
+    ] },
+    { "olabel": "oriyA15", "ovalue": "oriya15", "sfonts": [
+        { "olabel": "oriyA15", "ovalue": "oriya15" },
+        { "olabel": "oriyA25", "ovalue": "oriya25" },
+        { "olabel": "iNg15:-31=26a-z+ADHNT", "ovalue": "ing15" },
+        { "olabel": "iNg25:-31=26a-z+ADHNT", "ovalue": "ing25" }
+    ] },
+    { "olabel": "gurmukhi15", "ovalue": "gurmukhi15", "sfonts": [
+        { "olabel": "gurmukhi15", "ovalue": "gurmukhi15" },
+        { "olabel": "gurmukhi25", "ovalue": "gurmukhi25" },
+        { "olabel": "iNg15:-31=26a-z+ADHNT", "ovalue": "ing15" },
+        { "olabel": "iNg25:-31=26a-z+ADHNT", "ovalue": "ing25" }
+    ] },
+    { "olabel": "guzrATi15", "ovalue": "guzrati15", "sfonts": [
+        { "olabel": "guzrATi15", "ovalue": "guzrati15" },
+        { "olabel": "guzrATi25", "ovalue": "guzrati25" },
+        { "olabel": "iNg15:-31=26a-z+ADHNT", "ovalue": "ing15" },
+        { "olabel": "iNg25:-31=26a-z+ADHNT", "ovalue": "ing25" }
+    ] }
+]
