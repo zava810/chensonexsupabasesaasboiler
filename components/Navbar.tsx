@@ -2,7 +2,7 @@
 import React from "react";
 import Profile from "./Profile";
 import Link from "next/link";
-import FontPicker from "./lifonts/lifonts";
+import FontPicker from "./lifonts/lifp";
 
 export default function Navbar() {
 	return (
