@@ -1,5 +1,5 @@
 import {
-	ing15, ing25, binaryv15,
+	ing15,ing15m, iing15, ing25, binaryv15, ing4, ihindi15,
 	bangla15, guzrati15, kannada15, malayalam15, sinhala15, telugu15, 
 	gurmukhi15, hindi15, korean15, oriya15, tamil15,
 	bangla25, guzrati25, kannada25, malayalam25, sinhala25, telugu25, 
@@ -9,6 +9,10 @@ import {
 export const v_to_f = (sval: string): string => {
     switch (sval) {
       case "ing15": return ing15.className;
+      case "ing15m": return ing15m.className;
+      case "iing15": return iing15.className;
+      case "ihindi15": return ihindi15.className;
+      case "ing4": return ing4.className;
       case "ing25": return ing25.className;
       case "binaryv15": return binaryv15.className;
       case "hindi15": return hindi15.className;

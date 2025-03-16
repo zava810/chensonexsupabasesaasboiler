@@ -1,10 +1,14 @@
 import localFont from "next/font/local";
 /////////////////
 export const binaryv15 = localFont({ src: "./fonts/15_woff2/binaryv15.woff2", display: "swap", });
+export const ing15m = localFont({ src: "./fonts/15m_woff2/ing15m.woff2", display: "swap", });
 export const ing15 = localFont({ src: "./fonts/15_woff2/ing15.woff2", display: "swap", });
+export const iing15 = localFont({ src: "./fonts/15_woff2/iing15.woff2", display: "swap", });
 export const ing25 = localFont({ src: "./fonts/25_woff2/ing25.woff2", display: "swap", });
+export const ing4 = localFont({ src: "./fonts/4_woff2/ing4.woff2", display: "swap", });
 /////////////////
 export const hindi15 = localFont({ src: "./fonts/15_woff2/hindi15.woff2", display: "swap", });
+export const ihindi15 = localFont({ src: "./fonts/15_woff2/ihindi15.woff2", display: "swap", });
 export const bangla15 = localFont({ src: "./fonts/15_woff2/bangla15.woff2", display: "swap", });
 export const gurmukhi15 = localFont({ src: "./fonts/15_woff2/gurmukhi15.woff2", display: "swap", });
 export const guzrati15 = localFont({ src: "./fonts/15_woff2/guzrati15.woff2", display: "swap", });
