@@ -1,13 +1,10 @@
 "use client";
-
 import React, { useState } from 'react';
 import Select from 'react-select';
 import data from './data.json';
-import { v_to_f } from './vtof';
+import { w2f } from './w2f';
 
-interface ScriptOption {
-  olabel: string;
-  ovalue: string;
+interface ScriptOption { olabel: string; ovalue: string;
   sfonts: Array<{ olabel: string; ovalue: string }>;
 }
 
@@ -27,40 +24,22 @@ const FontPicker: React.FC = () => {
 
   const handleSFontChange = (sfontObject: { olabel: string; ovalue: string } | null) => {
     setSFont(sfontObject);
-    if (sfontObject) {
-      setBodyFont(sfontObject.ovalue);
-    }
+    if (sfontObject) { setBodyFont(sfontObject.ovalue); }
   };
-
-
-
-  const setBodyFont = (sval: string) => {
-    document.body.className = "";
-    const sf = v_to_f(sval);
-    document.body.classList.add(sf);
-    document.body.classList.add("antialiased");
+  const setBodyFont = (sval: string) => { document.body.className = "";
+    const sf = w2f(sval); document.body.classList.add(sf); document.body.classList.add("antialiased");
   };
-
   return (
     <div style={{ width: 400, marginBottom: 20, color: 'black', backgroundColor: 'white' }} >
-      <Select id='scriptsel'
-        placeholder="select script"
-        value={script}
-        options={data}
+	  <Select id='scriptsel' placeholder="lAng(bhαsα).select" value={script} options={data}
         onChange={handleScriptChange}
-        getOptionLabel={(x) => x.olabel}
-        getOptionValue={(x) => x.ovalue}
+		getOptionLabel={(x) => x.olabel} getOptionValue={(x) => x.ovalue}
       />
-      <Select id='fontsel'
-        placeholder="select sfont"
-        value={sfont}
-        options={sfontlist}
+	  <Select id='fontsel' placeholder="languagefont.select" value={sfont} options={sfontlist}
         onChange={handleSFontChange}
-        getOptionLabel={(x) => x.olabel}
-        getOptionValue={(x) => x.ovalue}
+		getOptionLabel={(x) => x.olabel} getOptionValue={(x) => x.ovalue}
       />
     </div>
   );
 };
-
 export default FontPicker;
