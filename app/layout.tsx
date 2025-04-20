@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 // "use client";
 import React, { useState } from 'react';
 ////binaryhoriontal115.woff2  hex115.woff2 binaryvertical115.woff2
-import { hindi15 } from '@/components/lifonts/localfonts';
+import { hindienglosoftw8asc } from '@/components/lifonts/localfonts';
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import QueryProvider from "@/components/query-provider";
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<body className={ `${hindi15.className} antialiased` }>
+			<body className={ `${hindienglosoftw8asc.className} antialiased` }>
 				<QueryProvider>
 					<ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange >
 						<main className="max-w-6xl min-h-screen mx-auto py-10 space-y-10 px-5 xl:px-0">
