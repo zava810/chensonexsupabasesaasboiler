@@ -1,53 +1,53 @@
 [
-    { "olabel": "binary:89LY_VWPF(wnti=10=8+8=4*4)", "ovalue": "binaryw115b", "sfonts": [
-		{ "olabel": "binary:89LY_VWPF(wnti=10=8+8=4*4)", "ovalue": "binaryw115b" }
+    { "olabel": "binary:89LY_VWPF(wnti=10=8+8=4*4)", "ovalue": "binarywenglosoftw8asc", "sfonts": [
+		{ "olabel": "binary:89LY_VWPF(wnti=10=8+8=4*4)", "ovalue": "binarywenglosoftw8asc" }
     ] },
-    { "olabel": "inglish4: 4xvjq=AHJQ v->w", "ovalue": "ing115b", "sfonts": [
-		{ "olabel": "inglish4: 4xvjq=AHJQ v->w", "ovalue": "ing115b" },
-		{ "olabel": "binary:89LY_VWPF(wnti=10=8+8=4*4)", "ovalue": "binaryw115b" }
+    { "olabel": "inglish englosoft", "ovalue": "inglishenglosoftw8asc", "sfonts": [
+		{ "olabel": "inglish englosoft", "ovalue": "inglishenglosoftw8asc" },
+		{ "olabel": "binary:89LY_VWPF(wnti=10=8+8=4*4)", "ovalue": "binarywenglosoftw8asc" }
     ] },
-    { "olabel": "hinqi4: 4xvjq=AHJQ v->w", "ovalue": "hindi115b", "sfonts": [
-        { "olabel": "hinqi4: 4xvjq=AHJQ v->w", "ovalue": "hindi115b" },
-        { "olabel": "inglish4: 4xvjq=AHJQ v->w", "ovalue": "ing115b" }
+    { "olabel": "hinqi englosoft", "ovalue": "hindienglosoftw8asc", "sfonts": [
+        { "olabel": "hinqi englosoft", "ovalue": "hindienglosoftw8asc" },
+        { "olabel": "inglish englosoft", "ovalue": "inglishenglosoftw8asc" }
     ] },
-    { "olabel": "bangla4: 4xvjq=AHJQ v->w", "ovalue": "bangla115b", "sfonts": [
-        { "olabel": "bangla4: 4xvjq=AHJQ v->w", "ovalue": "bangla115b" },
-        { "olabel": "inglish4: 4xvjq=AHJQ v->w", "ovalue": "ing115b" }
+    { "olabel": "bangla englosoft", "ovalue": "banglaenglosoftw8asc", "sfonts": [
+        { "olabel": "bangla englosoft", "ovalue": "banglaenglosoftw8asc" },
+        { "olabel": "inglish englosoft", "ovalue": "inglishenglosoftw8asc" }
     ] },
-    { "olabel": "korexn4: 4xvjq=AHJQ v->w", "ovalue": "korean115b", "sfonts": [
-        { "olabel": "korexn4: 4xvjq=AHJQ v->w", "ovalue": "korean115b" },
-        { "olabel": "inglish4: 4xvjq=AHJQ v->w", "ovalue": "ing115b" }
+    { "olabel": "korexn englosoft", "ovalue": "koreanenglosoftw8asc", "sfonts": [
+        { "olabel": "korexn englosoft", "ovalue": "koreanenglosoftw8asc" },
+        { "olabel": "inglish englosoft", "ovalue": "inglishenglosoftw8asc" }
     ] },
-    { "olabel": "sinhxla4: 4xvjq=AHJQ v->w", "ovalue": "sinhala115b", "sfonts": [
-        { "olabel": "sinhxla4: 4xvjq=AHJQ v->w", "ovalue": "sinhala115b" },
-        { "olabel": "inglish4: 4xvjq=AHJQ v->w", "ovalue": "ing115b" }
+    { "olabel": "sinhxla englosoft", "ovalue": "sinhalaenglosoftw8asc", "sfonts": [
+        { "olabel": "sinhxla englosoft", "ovalue": "sinhalaenglosoftw8asc" },
+        { "olabel": "inglish englosoft", "ovalue": "inglishenglosoftw8asc" }
     ] },
-    { "olabel": "jelugu4: 4xvjq=AHJQ v->w", "ovalue": "telugu115b", "sfonts": [
-        { "olabel": "jelugu4: 4xvjq=AHJQ v->w", "ovalue": "telugu115b" },
-        { "olabel": "inglish4: 4xvjq=AHJQ v->w", "ovalue": "ing115b" }
+    { "olabel": "jelugu englosoft", "ovalue": "teluguenglosoftw8asc", "sfonts": [
+        { "olabel": "jelugu englosoft", "ovalue": "teluguenglosoftw8asc" },
+        { "olabel": "inglish englosoft", "ovalue": "inglishenglosoftw8asc" }
     ] },
-    { "olabel": "jxmil4: 4xvjq=AHJQ v->w", "ovalue": "tamil115b", "sfonts": [
-        { "olabel": "jxmil4: 4xvjq=AHJQ v->w", "ovalue": "tamil115b" },
-        { "olabel": "inglish4: 4xvjq=AHJQ v->w", "ovalue": "ing115b" }
+    { "olabel": "jxmil englosoft", "ovalue": "tamilenglosoftw8asc", "sfonts": [
+        { "olabel": "jxmil englosoft", "ovalue": "tamilenglosoftw8asc" },
+        { "olabel": "inglish englosoft", "ovalue": "inglishenglosoftw8asc" }
     ] },
-    { "olabel": "mxlxyalxm4: 4xvjq=AHJQ v->w", "ovalue": "malayalam115b", "sfonts": [
-        { "olabel": "mxlxyalxm4: 4xvjq=AHJQ v->w", "ovalue": "malayalam115b" },
-        { "olabel": "inglish4: 4xvjq=AHJQ v->w", "ovalue": "ing115b" }
+    { "olabel": "mxlxyalxm englosoft", "ovalue": "malayalamenglosoftw8asc", "sfonts": [
+        { "olabel": "mxlxyalxm englosoft", "ovalue": "malayalamenglosoftw8asc" },
+        { "olabel": "inglish englosoft", "ovalue": "inglishenglosoftw8asc" }
     ] },
-    { "olabel": "kxnnxda4: 4xvjq=AHJQ v->w", "ovalue": "kannada115b", "sfonts": [
-        { "olabel": "kxnnxda4: 4xvjq=AHJQ v->w", "ovalue": "kannada115b" },
-        { "olabel": "inglish4: 4xvjq=AHJQ v->w", "ovalue": "ing115b" }
+    { "olabel": "kxnnxda englosoft", "ovalue": "kannadaenglosoftw8asc", "sfonts": [
+        { "olabel": "kxnnxda englosoft", "ovalue": "kannadaenglosoftw8asc" },
+        { "olabel": "inglish englosoft", "ovalue": "inglishenglosoftw8asc" }
     ] },
-    { "olabel": "oriya4: 4xvjq=AHJQ v->w", "ovalue": "oriya115b", "sfonts": [
-        { "olabel": "oriya4: 4xvjq=AHJQ v->w", "ovalue": "oriya115b" },
-        { "olabel": "inglish4: 4xvjq=AHJQ v->w", "ovalue": "ing115b" }
+    { "olabel": "oriya englosoft", "ovalue": "oriyaenglosoftw8asc", "sfonts": [
+        { "olabel": "oriya englosoft", "ovalue": "oriyaenglosoftw8asc" },
+        { "olabel": "inglish englosoft", "ovalue": "inglishenglosoftw8asc" }
     ] },
-    { "olabel": "gurmukhi4: 4xvjq=AHJQ v->w", "ovalue": "gurmukhi115b", "sfonts": [
-        { "olabel": "gurmukhi4: 4xvjq=AHJQ v->w", "ovalue": "gurmukhi115b" },
-        { "olabel": "inglish4: 4xvjq=AHJQ v->w", "ovalue": "ing115b" }
+    { "olabel": "gurmukhi englosoft", "ovalue": "gurmukhienglosoftw8asc", "sfonts": [
+        { "olabel": "gurmukhi englosoft", "ovalue": "gurmukhienglosoftw8asc" },
+        { "olabel": "inglish englosoft", "ovalue": "inglishenglosoftw8asc" }
     ] },
-    { "olabel": "guzraji4: 4xvjq=AHJQ v->w", "ovalue": "guzrati115b", "sfonts": [
-        { "olabel": "guzraji4: 4xvjq=AHJQ v->w", "ovalue": "guzrati115b" },
-        { "olabel": "inglish4: 4xvjq=AHJQ v->w", "ovalue": "ing115b" }
+    { "olabel": "guzraji englosoft", "ovalue": "guzratienglosoftw8asc", "sfonts": [
+        { "olabel": "guzraji englosoft", "ovalue": "guzratienglosoftw8asc" },
+        { "olabel": "inglish englosoft", "ovalue": "inglishenglosoftw8asc" }
     ] }
 ]
