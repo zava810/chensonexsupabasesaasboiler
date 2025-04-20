@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 export const binarywenglosoftw8asc = localFont({ src: "./fonts/hscii/englosoftw8/englosoftw8asc/binarywenglosoftw8asc.woff2", display: "swap", });
 export const inglishenglosoftw8asc = localFont({ src: "./fonts/hscii/englosoftw8/englosoftw8asc/inglishenglosoftw8asc.woff2", display: "swap", });
 export const koreanenglosoftw8asc = localFont({ src: "./fonts/hscii/englosoftw8/englosoftw8asc/koreanenglosoftw8asc.woff2", display: "swap", });
+export const russianenglosoftw8asc = localFont({ src: "./fonts/hscii/englosoftw8/englosoftw8asc/russianenglosoftw8asc.woff2", display: "swap", });
 ///////////////// indik bilo
 export const hindienglosoftw8asc = localFont({ src: "./fonts/hscii/englosoftw8/englosoftw8asc/hindienglosoftw8asc.woff2", display: "swap", });
 export const banglaenglosoftw8asc = localFont({ src: "./fonts/hscii/englosoftw8/englosoftw8asc/banglaenglosoftw8asc.woff2", display: "swap", });
